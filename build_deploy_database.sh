@@ -1,0 +1,1 @@
+docker build ./database/. -t golang-grpc-db && docker run -p 54321:5432 -e POSTGRES_PASSWORD=postgres golang-grpc-db
